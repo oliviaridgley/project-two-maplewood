@@ -1,20 +1,138 @@
 @font-face {
-       font-family: 'Neue Montreal';
-       src: url(../assets/fonts/NeueMontreal-Light/NeueMontreal-Light.otf) format('oft');
-       font-weight: normal;
-       font-style: normal;
-
- }
+  font-family: 'NeueMontreal-Light';
+  src: url('../assets/fonts/NeueMontreal-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
-      font-family: 'Canela Web';
-      src: url(../assets/fonts/canela-regular/CanelaWeb-Regular.woff2) format('woff2'),
-          url(../assets/fonts/canela-regular/CanelaWeb-Regular.woff) format('woff'),
-          url(../assets/fonts/canela-regular/CanelaWeb-Regular.ttf) format('truetype');
-      font-weight: normal;
-      font-style: normal;
+  font-family: 'NeueMontreal-LightItalic';
+  src: url('../assets/fonts/NeueMontreal-LightItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Regular';
+  src: url('../assets/fonts/NeueMontreal-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPWoodland-Bold';
+  src: url('../assets/fonts/PPWoodland-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPWoodland-Regular';
+  src: url('../assets/fonts/PPWoodland-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPWoodland-Ultralight';
+  src: url('../assets/fonts/PPWoodland-Ultralight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-	background-color: #f1e8e1;
-	 }
+  background-color: #f8f7f4;
+}
+
+h1 {
+  font-family: 'PPWoodland-Regular';
+  font-weight: normal;
+  font-style: normal;
+  color: #3b5471;
+}
+
+h4 {
+  font-family: 'PPWoodland-Ultralight';
+  color: #3b5471;
+}
+
+h5 {
+  font-family: 'PPWoodland-Ultralight';
+  color: #3b5471;
+}
+
+p {
+  font-family: 'NeueMontreal-Light';
+  color: #3b5471;
+  font-size: 20px;
+}
+
+a {
+  font-family: 'NeueMontreal-Light';
+  color: #3b5471;
+  font-size: 20px;
+}
+
+nav {
+ background-color: #B0c4c9;
+}
+
+nav ul a {
+  font-family: 'NeueMontreal-Light';
+  color: #3b5471;
+  font-size: 25px;
+}
+
+.page-footer {
+  background-color: #b0c4c9;
+}
+
+.background-nav {
+  background-color: #3b5471;
+  height:5px;
+}
+
+.sub-serif {
+  font-family: 'PPWoodland-Ultralight';
+  color: #3b5471;
+}
+
+.sub-sans {
+  font-family: 'NeueMontreal-Light';
+  color: #3b5471;
+}
+
+.color-cream {
+  background-color: #f1e8e1;
+}
+
+.color-grey {
+  background-color: #dbd9d7;
+}
+
+.color-blue {
+  background-color: #3b5471;
+}
+
+.spacer {
+  padding-top: 40px;
+  padding-bottom: 260px;
+}
+
+.spin {
+    /* margin:-60px 0 0 -60px; */
+    -webkit-animation: spin 15s linear infinite;
+    -moz-animation: spin 15s linear infinite;
+    animation: spin 15s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+* { color:#3b5471; text-decoration: none;}
+
+.typewrite {
+  font-family: 'PPWoodland-Ultralight';
+  font-size: 50px;
+}
