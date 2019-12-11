@@ -1,12 +1,3 @@
-    // your script file for adding your own jquery
-    //
-    // (function($) {
-    //   $(function() {
-    //
-    //
-    //   }); // end of document ready
-    // })(jQuery); // end of jQuery name space
-
     "use strict";
 
     var TxtType = function(el, toRotate, period) {
@@ -59,7 +50,7 @@
           new TxtType(elements[i], JSON.parse(toRotate), period);
         }
       }
-      // INJECT CSS
+
       var css = document.createElement("style");
       css.type = "text/css";
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
