@@ -41,7 +41,7 @@
 }
 
 body {
-  background-color: #f8f7f4;
+  background-color: #e4dece;
 }
 
 h1 {
@@ -74,21 +74,21 @@ a {
 }
 
 nav {
- background-color: #B0c4c9;
+ background-color: #865d3f;
 }
 
 nav ul a {
   font-family: 'NeueMontreal-Light';
-  color: #3b5471;
+  color: #e4dece;
   font-size: 25px;
 }
 
 .page-footer {
-  background-color: #b0c4c9;
+  background-color: #d0d4d5;
 }
 
 .background-nav {
-  background-color: #3b5471;
+  background-color: #e4dece;
   height:5px;
 }
 
@@ -135,4 +135,8 @@ nav ul a {
 .typewrite {
   font-family: 'PPWoodland-Ultralight';
   font-size: 50px;
+}
+
+.egg {
+	cursor: url('../assets/images/food-and-restaurant.png'), default;
 }
